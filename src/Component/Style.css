@@ -1,0 +1,68 @@
+.p40{
+padding: 40px;
+}
+.p20{
+    padding: 20px 0px;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 100%;
+}
+form button{
+    width: 200px;
+    margin: 10px;
+}
+
+.card{
+    width: 90%;
+    margin: 0px 10px;
+    border: 1px solid;
+    box-shadow: 0px 0px 7px 0px #bbb4b4;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+}
+
+.text{
+    padding: 10px;
+}
+.text h5, .text p{
+    text-align: left;
+}
+.footer {
+    background-color: #f7f7f7;
+    padding: 40px 0px;
+}
+
+p a {
+    color:#282727;
+    text-decoration: none;
+}
+
+.sideIcons{
+    position: fixed;
+    top: 10%;
+    left: 0;
+}
+.helpCard{
+    position: absolute!important;
+    width: 150px;
+    left: 30px;
+    top: 5%;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+p {
+    margin-bottom: 0rem!important;
+}
