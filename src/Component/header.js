@@ -3,11 +3,16 @@ import { Container } from 'react-bootstrap'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import {LinkContainer} from 'react-router-bootstrap';
+import login from './login'
 
 const options1 = (
   <Fragment>
+   {login ? (
     <Nav.Link href="/login">Login</Nav.Link>
-  </Fragment>
+    ):(
+     <Nav.Link href="/register">Register</Nav.Link>
+    )}
+</Fragment>
 )
 const options2 = (
     <Fragment>
