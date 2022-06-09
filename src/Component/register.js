@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Alert, Button, Form, Card} from 'react-bootstrap';
-import Login from '../Login/login';
-import '../Style.css';
+import Login from './login';
+import './Style.css';
 
 const Register = () => {
 
@@ -70,7 +70,7 @@ function handleSubmit(e) {
                 <Login/>
             )}
         </div>
-    )
-}
+    );
+};
 
 export default Register;

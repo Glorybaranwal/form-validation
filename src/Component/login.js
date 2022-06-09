@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Alert, Button, Form, Card} from 'react-bootstrap';
-import Home from '../Home/home';
-import '../Style.css'
+import Home from './home';
+import './Style.css'
 
 const Login = () => {
     const [usernamelog, setUsernamelog] = useState("");
@@ -69,7 +69,7 @@ const Login = () => {
                 <Home/>
             )}
             </div>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;

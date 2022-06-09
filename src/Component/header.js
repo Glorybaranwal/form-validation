@@ -2,10 +2,11 @@ import React, { Fragment } from 'react'
 import { Container } from 'react-bootstrap'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
+import {LinkContainer} from 'react-router-bootstrap';
 
 const options1 = (
   <Fragment>
-    <Nav.Link href="/register">Login</Nav.Link>
+    <Nav.Link href="/login">Login</Nav.Link>
   </Fragment>
 )
 const options2 = (
@@ -39,4 +40,4 @@ const Header = ({ user }) => (
  
 )
 
-export default Header
+export default Header;
