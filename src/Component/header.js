@@ -16,9 +16,9 @@ const options1 = (
 )
 const options2 = (
     <Fragment>
-      <Nav.Link href="/">Home</Nav.Link>
-      <Nav.Link href="/">About</Nav.Link>
-      <Nav.Link href="/">Blog</Nav.Link>
+      <Nav.Link href="#">Home</Nav.Link>
+      <Nav.Link href="#">About</Nav.Link>
+      <Nav.Link href="#">Blog</Nav.Link>
     </Fragment>
   )
 
